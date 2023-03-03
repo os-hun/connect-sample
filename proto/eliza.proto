@@ -8,6 +8,7 @@ message SayRequest {
 
 message SayResponse {
   string sentence = 1;
+  bool status = 2;
 }
 
 service ElizaService {

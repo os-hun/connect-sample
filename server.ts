@@ -2,7 +2,7 @@ import { fastifyConnectPlugin } from "@bufbuild/connect-fastify";
 import { fastify } from "fastify";
 import routes from "./connect";
 
-const server = fastify({ http2: true })
+const server = fastify()
 
 await server.register(fastifyConnectPlugin, {
   routes

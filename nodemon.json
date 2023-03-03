@@ -1,0 +1,9 @@
+{
+  "restartable": "rs",
+  "env": {
+    "NODE_ENV": "development"
+  },
+  "watch": ["proto"],
+  "ext": "proto",
+  "exec": "buf generate proto"
+}
